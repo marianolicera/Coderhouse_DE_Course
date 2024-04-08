@@ -1,0 +1,5 @@
+pandas == 2.4.1
+requests
+psycopg2
+datetime
+apache-airflow
