@@ -17,5 +17,19 @@ Una aplicación Python para obtener datos meteorológicos de ciudades utilizando
 
 ## Docker
 
-1. Ejecuta docker build -t <nombre_de_imagen> .
-2. Ejecuta docker run <nombre_de_imagen>
+1. Ejecutar los siguientes comandos para crear imagen y ejecutar
+    ```
+    docker build -t <nombre_de_imagen> .
+    docker run <nombre_de_imagen>
+    ```
+
+## Airflow
+
+1. Configurar variable de entorno creando .env con la siguiente variable (en caso de Windows)
+    ```
+    AIRFLOW_UID=50000
+    ```
+2. Ejecutar el comando
+    ```
+    docker compose up
+    ```
