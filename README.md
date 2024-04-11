@@ -1,6 +1,6 @@
 # Weather API
 
-Una aplicación Python para obtener datos meteorológicos de ciudades utilizando la API de AccuWeather.
+Una aplicación Python para obtener datos meteorológicos de ciudades utilizando la API de AccuWeather. (WIP)
 
 ## Instalación
 
@@ -12,8 +12,8 @@ Una aplicación Python para obtener datos meteorológicos de ciudades utilizando
 
 ## Uso
 
-1. Configura tu API Key de AccuWeather en el archivo `config.py`.
-2. Ejecuta el script `weather_api.py` para obtener datos meteorológicos de las ciudades principales.
+1. Configura tus credenciales en el archivo `config.py`.
+2. Ejecuta el script `main.py` para cargar los datos climatologicos a la base de datos.
 
 ## Docker
 
