@@ -18,4 +18,4 @@ WORKDIR /app
 RUN pip install -r requirements.txt
 
 # Execute python file
-CMD ["python","weather_api.py"]
+CMD ["python","./main.py"]
